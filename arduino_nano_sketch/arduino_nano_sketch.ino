@@ -22,9 +22,12 @@
  ***********************************************************************/
  
 //------------------------------------------------------------------------------
+
+
+
 /* This code assumes following pin layout for the Arduino Nano v3:
  *
- *  +----------+---------------+-----------+---------------+--------------+
+*  +----------+---------------+-----------+---------------+--------------+
  *  | Name     | Function      | Nano Pin# | Register, Bit | Mode         |
  *  +----------+---------------+-----------+---------------+--------------+
  *  | DATA     | 74HC595 Data  | A3        | DDRC, 3       | Output       |
@@ -38,9 +41,11 @@
  *  | D5       | Data Bit 5    | D7        | DDRD, 7       | Input/Output |
  *  | D6       | Data Bit 6    | D8        | DDRB, 0       | Input/Output |
  *  | D7       | Data Bit 7    | D9        | DDRB, 1       | Input/Output |
- *  | Pin32    | Vpp HighVolt  | D13       | DDRB, 5       | Output       |
- *  
- *  
+ *  | VSWITCH  | HV Switch     | D10       | DDRB, 2       | Output       |  * 12V/14V selection
+ *  | Pin26    | A9 HV         | D11       | DDRB, 3       | Output       |
+ *  | Pin24    | Vpp/OE HV     | D12       | DDRB, 4       | Output       |  * W27C512 Vpp on OE (pin 24)
+ *  | Pin32    | Vpp HV        | D13       | DDRB, 5       | Output       |  * HV = High Voltage (12V/14V)
+ *  | Pin3     | Vpp/A15 HV    | A2        | DDRC, 2       | Output       |  * W27C257 Vpp on pin 3
  *  +----------+---------------+-----------+---------------+--------------+
 */
 
