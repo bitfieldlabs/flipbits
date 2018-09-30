@@ -1,6 +1,6 @@
 /***********************************************************************
- *  Arduino PinProm:
- *      Copyright (c) 2018 Christoph Schmid
+ *  FlipBits:
+ *      Copyright (c) 2018 morbid cornflakes
  *
  ***********************************************************************
  *  This file is part of the FlipBits pinball EPROM programmer project:
