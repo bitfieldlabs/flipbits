@@ -44,7 +44,7 @@
  *  | VSWITCH  | HV Switch     | D10       | DDRB, 2       | Output       |  * 12V/14V selection
  *  | Pin26    | A9 HV         | D11       | DDRB, 3       | Output       |
  *  | Pin24    | Vpp/OE HV     | D12       | DDRB, 4       | Output       |  * W27C512 Vpp on OE (pin 24)
- *  | Pin32    | Vpp HV        | D13       | DDRB, 5       | Output       |  * HV = High Voltage (12V/14V)
+ *  | Pin1     | Vpp HV        | D13       | DDRB, 5       | Output       |  * HV = High Voltage (12V/14V)
  *  | Pin3     | Vpp/A15 HV    | A2        | DDRC, 2       | Output       |  * W27C257 Vpp on pin 3
  *  +----------+---------------+-----------+---------------+--------------+
 */
@@ -766,4 +766,3 @@ void initPins()
     DDRD &= B00000011;
     DDRB &= B11111100;
 }
-
