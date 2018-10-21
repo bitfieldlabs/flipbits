@@ -1,5 +1,7 @@
 FlipBits is a small hardware and software project for programming legacy EPROMs used in pinball machines.
 
+![Breadboard](https://github.com/smyp/flipbits/blob/master/docu/breadboard.JPG "Breadboard fun")
+
 Currently only following Winbond EEPROMs are supported, although it is very simple to add support for other standard UV 27xxx EPROMs:
 * W27C257 - 32kb Electrically erasable EPROM
 * W27C512 - 64kb Electrically erasable EPROM
