@@ -11,4 +11,4 @@ An [Arduino Nano](https://store.arduino.cc/arduino-nano) is used to control the 
 
 Schematics for [kicad](http://kicad-pcb.org/) are provided.
 
-![Schematic](https://raw.githubusercontent.com/smyp/flipbits/master/flipbits_nano_board/flipbits_nano_board.svg "Arduino Nano Schematic")
+![Schematic](https://github.com/smyp/flipbits/blob/master/flipbits_nano_board/flipbits_nano_board.svg "Arduino Nano Schematic")
