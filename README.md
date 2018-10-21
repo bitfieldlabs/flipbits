@@ -7,4 +7,6 @@ Currently only following Winbond EEPROMs are supported, although it is very simp
 
 These EPROMs can be erased electrically by appying 14V to some pins.
 
-An Arduino Nano is used to control the hardware.
+An [Arduino Nano](https://store.arduino.cc/arduino-nano) is used to control the hardware.
+
+Schematics for [kicad](http://kicad-pcb.org/) are provided.
